@@ -1,0 +1,191 @@
+/*
+Theme Name:     Robuca Bootstrap - Tema Filho
+Theme URI:      http: //robolivre.org
+Description:    Tema filho para The Bootstrap
+Author:         Robô Livre - Rodrigo Muniz
+Author URI:     http: //rodrigomuniz.com
+Template:       the-bootstrap
+Version:        0.1
+*/
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+body {
+	padding-bottom: 140px;
+}
+body > .container {
+	margin-top: 0;
+}
+#page {
+	background: none;
+	padding-top: 0;
+	position: relative;
+}
+body.home #site-title a {
+	cursor: default;
+}
+#branding {
+	background: url(img/bg-chalk.png) no-repeat center top;
+	height: 254px;
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	z-index:999;
+}
+#branding hgroup {margin: 0;}
+
+#site-title {
+	margin: 0 auto;
+	max-width: 569px;
+	margin-bottom: -12px;
+}
+#branding .subnav {
+	margin: 0 auto;
+	width: 640px;
+	position: relative;
+	z-index:999;
+}
+#menu-topo.nav > li > a {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	color: #fff;
+	line-height: 100%;
+	border-radius: 18px;
+	padding-top: 5px;
+}
+#menu-topo.nav-pills > li > a:hover, 
+#menu-topo.nav-pills > .active > a, 
+#menu-topo.nav-pills > .active > a:hover {
+	background-color: #738871;
+	background-color: rgba(255,255,255,0.15);
+}
+#menu-topo.nav-pills > .active > a, 
+#menu-topo.nav-pills > .active > a:hover {
+	background-color: #294026;
+	background-color: rgba(0,0,0,0.2);
+}
+#primary article {
+	background: #fff;
+	border: 1px solid #dbdada;
+	border-radius: 3px;
+	padding: 40px 0 60px;
+}
+h2.hat {
+	font-family: 'Rock Salt', cursive;
+	font-size: 30px;
+	font-weight: normal;
+	color: #0071bc;
+	line-height: 200%;
+	padding-bottom: 5px;
+}
+.goto {padding-top:220px; clear: both;}
+
+.file-download, .sya_container ul li {
+	border-bottom: 1px solid #eee;
+	padding: 4px 0;
+}
+.file-download:hover, .sya_container ul li:hover {
+	background: #f9f9f9;
+}
+.file-download small {
+	display: block;
+}
+.sya_container ul {
+	list-style: none;
+	margin-left: 0;
+}
+#nav-blog-home .btn {margin-bottom: 20px;}
+
+/* 
+================
+== Responsive ==
+*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+body {padding:0;}
+body > .container {
+	padding: 0 10px;
+}
+#branding {
+	background: url(img/bg-chalk.png) no-repeat center -90px;
+	height: 164px;
+	position: static;
+}
+
+#branding .subnav {
+	width: 100%;
+}
+
+#menu-topo.nav > li > a {
+	font-size: 16px;
+	padding: 3px 8px;
+}
+
+#primary article {
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+h2.hat {
+	font-size: 23px;
+	line-height: 200%;
+
+}
+.goto {
+	padding-top:0; 
+	clear: both;
+}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+body {
+	padding:0;
+	padding-bottom: 140px;
+}
+#primary article {
+	padding: 0 10px 20px;
+}
+#branding .subnav {
+	width: 100%;
+}
+
+#menu-topo.nav > li > a {
+	font-size: 18px;
+	padding: 3px 15px;
+}
+
+.file-download .btn {
+	margin: 10px 0;
+}
+
+}
+
+
+/* // UCA - Um computador por aluno */
+@media (min-width: 768px) and (max-width: 800px) {
+#branding {
+	background: url(img/bg-chalk.png) no-repeat center -75px;
+	height: 199px;
+}
+
+#site-title {
+	max-width: 284px;
+}
+
+.goto {padding-top:150px; clear: both;}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+#branding .subnav {
+	width: 640px;
+}
+
+}
+
+/* Large desktop
+@media (min-width: 1200px) {} */
