@@ -33,6 +33,13 @@
 			</div>
 		
 	</div>
+
+<div id="creditos" class="row-fluid">
+<div class="span12">
+<hr>
+	Conteúdo sob a licença <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt">CC BY-SA 3.0</a> ‧ <a href="<?php echo esc_url( home_url( '/creditos' ) ); ?>">Créditos</a>
+</div>
+</div>
 	</article>
 	</div>
 </section><!-- #primary -->

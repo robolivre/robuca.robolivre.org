@@ -95,6 +95,13 @@ h2.hat {
 }
 #nav-blog-home .btn {margin-bottom: 20px;}
 
+#creditos {
+	margin-top: 60px;
+	padding-top: 20px;
+	font-size: 80%;
+	text-align: center
+}
+
 /* 
 ================
 == Responsive ==

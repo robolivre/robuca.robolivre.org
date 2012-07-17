@@ -7,6 +7,12 @@ $('#site-title a img').bind('contextmenu', function(e){
     return false;
 });
 
+//Modal créditos
+$('#creditos a').click(function(){
+    $('#modalCreditos').modal()
+    return false;
+});
+
 $(function() {
 
 	function filterPath(string) {
