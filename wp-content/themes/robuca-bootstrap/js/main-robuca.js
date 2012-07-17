@@ -1,5 +1,12 @@
 $('#menu-topo').scrollspy()
 
+//right click logo
+$('#site-title a img').bind('contextmenu', function(e){
+    e.preventDefault();
+        $('#modalLogo').modal()
+    return false;
+});
+
 $(function() {
 
 	function filterPath(string) {
